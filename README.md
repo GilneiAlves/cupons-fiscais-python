@@ -73,6 +73,9 @@ itens = parse_receipt_text_list_4(linhas)
 df = pd.DataFrame(itens)
 display(df)
 ```
+### Exemplo de Cupom Fiscal
+
+![Cupom Fiscal](samples/images/example_receipt_9.jpg)
 
 ## *Considerações Finais*
 Apesar dos esforços aplicados, o uso de expressões regulares `(re)` não se mostrou uma abordagem confiável nem viável para extrair padrões neste caso específico. Isso ocorre porque os dados apresentam muitas variações e inconsistências estruturais, tornando difícil criar regras genéricas que capturem os padrões desejados com precisão.
