@@ -74,8 +74,13 @@ df = pd.DataFrame(itens)
 display(df)
 ```
 ### Exemplo de Cupom Fiscal
+<details>
+  <summary>Cupom Fiscal</summary>
 
 ![Cupom Fiscal](samples/images/example_receipt_9.jpg)
+
+</details>
+
 
 ## *Considerações Finais*
 Apesar dos esforços aplicados, o uso de expressões regulares `(re)` não se mostrou uma abordagem confiável nem viável para extrair padrões neste caso específico. Isso ocorre porque os dados apresentam muitas variações e inconsistências estruturais, tornando difícil criar regras genéricas que capturem os padrões desejados com precisão.
